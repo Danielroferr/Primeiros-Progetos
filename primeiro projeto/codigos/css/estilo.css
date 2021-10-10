@@ -23,3 +23,32 @@ body {
     font-size: 46px;
     text-shadow: 3px 3px 5px  rgb(0, 0, 0) ;
 }
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+.content-section {
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+h2 {
+    background-color: rgb(219, 219, 219);
+    width:auto;
+    margin-top: 0%;
+}
+
+.rodape{
+    text-align: center;
+    font-size: 14px;
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px #333;
+    background-color: grey;
+    height: 80px;
+    width: auto;
+    vertical-align: bottom;
+    line-height: 80px;
+}
