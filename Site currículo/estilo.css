@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(218, 210, 210);
+    margin: 0;
+    background-image: url(/imagens/cover.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+
+.hero {
+    height: 500px;
+    background-position: right center;
+    background-size: cover;
+    border-top: 1px solid transparent ;
+}
+
+.hero nav ul{
+    text-align: right;
+    margin: 25px 25px 0 0;
+}
+
+.hero nav li {
+    display: inline-block;
+    list-style: none;
+    border: 1px solid white;
+}
+.hero nav a{
+    display: block;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;
+
+}
+
+.hero nav a:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+    text-align: center;
+    margin-top: 150px;
+    color: rgb(18, 29, 29);
+    
+}
+
+.hero-content h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+    text-shadow: 1px 1px 3px  rgb(189, 147, 147) ;
+}
+.hero-content {
+    text-transform: uppercase;
+    font-size: 25px;
+    text-shadow: 1px 1px 3px rgb(189, 147, 147) ;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+.content-section {
+    background-color: transparent;
+    padding: 15px;
+    margin: 100px 100px;
+    padding: 10px 10px;
+    
+
+}
+.card {
+    border: 2px solid;
+    padding: 10px 10px; 
+    margin-left: 270px;
+    width: 300px;
+    resize: vertical;
+    overflow: auto;
+    text-align: center;
+    align-content: center;
+
+}
+.card img {
+    height: auto; 
+    width: auto; 
+    max-width: 100px; 
+    max-height: 100px;
+}
+
+.content-section a{
+    display: block;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+.content-section a:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+
+
+h2 {
+    background-color: rgb(219, 219, 219);
+    width:auto;
+    margin-top: 0%;
+}
+
+.rodape{
+    text-align: center;
+    font-size: 14px;
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px #333;
+    background-color: grey;
+    height: 80px;
+    width: auto;
+    vertical-align: bottom;
+    line-height: 80px;
+}
